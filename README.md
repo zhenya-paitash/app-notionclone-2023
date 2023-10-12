@@ -9,19 +9,19 @@
 
 **Name:** Notion Clone  
 **Year:** 2023  
-**Author:** [Antonio Erdeljac](https://github.com/AntonioErdeljac)  
-**Course:** [youtu.be](https://www.youtube.com/@codewithantonio)  
+**Idea:** [Antonio Erdeljac](https://github.com/AntonioErdeljac)  
+**Source:** [youtu.be](https://www.youtube.com/@codewithantonio)  
 **Description:**  
 **Deploy:**  
 
 ## _Tech stack_
 
-    📦 bun typescript nextjs
+    📦 bun typescript nextjs shadcn/ui
 
 ## _Workflow_
 
 - [x] Introduction
-- [ ] Environment setup
+- [x] Environment setup
 - [ ] Folders setup
 - [ ] Landing page
 - [ ] Authentication & Database
