@@ -6,5 +6,5 @@ export default function Home() {
       <h1>Environment Setup</h1>
       <Button variant="destructive">Delete</Button>
     </div>
-  )
+  );
 }
