@@ -16,7 +16,7 @@
 
 ## _Tech stack_
 
-    📦 bun typescript nextjs react tailwind shadcn/ui eslint
+    📦 bun typescript nextjs react tailwind shadcn/ui eslint convex clerk
 
 ## _Workflow_
 
@@ -24,7 +24,7 @@
 - [x] Environment setup
 - [x] Folders setup
 - [x] Landing page
-- [ ] Authentication & Database
+- [x] Authentication & Database
 - [ ] Sidebar
 - [ ] User Settings
 - [ ] Schema & API
