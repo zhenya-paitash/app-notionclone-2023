@@ -16,14 +16,14 @@
 
 ## _Tech stack_
 
-    📦 bun typescript nextjs shadcn/ui
+    📦 bun typescript nextjs react tailwind shadcn/ui eslint
 
 ## _Workflow_
 
 - [x] Introduction
 - [x] Environment setup
-- [ ] Folders setup
-- [ ] Landing page
+- [x] Folders setup
+- [x] Landing page
 - [ ] Authentication & Database
 - [ ] Sidebar
 - [ ] User Settings
