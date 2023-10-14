@@ -25,7 +25,7 @@
 - [x] Folders setup
 - [x] Landing page
 - [x] Authentication & Database
-- [ ] Sidebar
+- [x] Sidebar
 - [ ] User Settings
 - [ ] Schema & API
 - [ ] Sidebar Item

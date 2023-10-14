@@ -29,13 +29,13 @@ export const Heading = () => {
       )}
       {!isLoading && isAuthenticated && (
         <Button asChild>
-          <Link href="/document">
+          <Link href="/documents">
             Enter Jotion <ArrowRight className="h-4 w-4 ml-2" />
           </Link>
         </Button>
       )}
       {!isLoading && !isAuthenticated && (
-        <SignInButton mode="modal" afterSignUpUrl="/document">
+        <SignInButton mode="modal" afterSignUpUrl="/documents">
           <Button>
             Get Jotion Free <ArrowRight className="h-4 w-4 ml-2" />
           </Button>
