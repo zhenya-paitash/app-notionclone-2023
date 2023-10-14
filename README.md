@@ -1,6 +1,5 @@
 # app-notionclone-2023
 
-
 ## _Notion_
 [![Static Badge](https://img.shields.io/badge/Notion%20Document-D2E0FB)](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
 📝 More information on [Notion](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
@@ -26,7 +25,7 @@
 - [x] Landing page
 - [x] Authentication & Database
 - [x] Sidebar
-- [ ] User Settings
+- [x] User Settings
 - [ ] Schema & API
 - [ ] Sidebar Item
 - [ ] Document list
