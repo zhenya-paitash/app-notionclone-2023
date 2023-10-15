@@ -10,12 +10,10 @@
 **Year:** 2023  
 **Idea:** [Antonio Erdeljac](https://github.com/AntonioErdeljac)  
 **Source:** [youtu.be](https://www.youtube.com/@codewithantonio)  
-**Description:**  
+**Description:** This project is a clone of the popular productivity app, Notion. It aims to replicate the core features of Notion, providing users with a platform to manage their notes, tasks, and more in one place.  
 **Deploy:**  
 
 ## _Tech stack_
-
-    📦 bun typescript nextjs react tailwind shadcn/ui eslint convex clerk
 
 ![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.4&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)
 ![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&label=5.2.2&labelColor=3178C6&link=https%3A%2F%2Fwww.typescriptlang.org%2F)
@@ -26,6 +24,26 @@
 ![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)
 ![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)
 ![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)
+
+## _Features_
+
+This Notion clone has a wide range of features designed to provide a comprehensive and user-friendly note-taking experience:
+
+- **Real-time Database**: The application uses a real-time database, ensuring that your data is always up-to-date. 🔗
+- **Notion-style Editor**: Enjoy a seamless writing experience with our Notion-style editor. 📝
+- **Light and Dark Mode**: Choose between light and dark mode for a comfortable viewing experience. 🌓
+- **Infinite Children Documents**: Create an unlimited number of child documents. 🌲
+- **Trash Can & Soft Delete**: Deleted something by mistake? Don't worry, our trash can feature and soft delete option have got you covered. 🗑️
+- **Authentication**: Keep your notes secure with our authentication feature. 🔐
+- **File Management**: Upload, delete, or replace files with ease.
+- **Document Icons**: Personalize your documents with icons that change in real-time. 🌠
+- **Expandable Sidebar**: Easily navigate through your notes with our expandable sidebar. ➡️🔀⬅️
+- **Mobile Responsiveness**: Take notes on the go with our fully responsive mobile design. 📱
+- **Publish Your Note to the Web**: Share your thoughts with the world by publishing your note to the web. 🌐
+- **Fully Collapsible Sidebar**: Save space with our fully collapsible sidebar. ↕️
+- **Landing Page**: Get started on our user-friendly landing page. 🛬
+- **Cover Image for Each Document**: Customize each document with a unique cover image. 🖼️
+- **Recover Deleted Files**: Accidentally deleted a file? Easily recover it with our file recovery feature. 🔄📄
 
 ## _Workflow_
 
