@@ -36,7 +36,7 @@
 - [x] Authentication & Database
 - [x] Sidebar
 - [x] User Settings
-- [ ] Schema & API
+- [x] Schema & API
 - [ ] Sidebar Item
 - [ ] Document list
 - [ ] Archive functionality
