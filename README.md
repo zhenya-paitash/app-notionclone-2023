@@ -1,6 +1,7 @@
 # app-notionclone-2023
 
-## _Notion_
+## _Info_
+
 [![Static Badge](https://img.shields.io/badge/Notion%20Document-D2E0FB)](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
 📝 More information on [Notion](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
 
@@ -15,15 +16,15 @@
 
 ## _Tech stack_
 
-![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.4&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)
-![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&label=5.2.2&labelColor=3178C6&link=https%3A%2F%2Fwww.typescriptlang.org%2F)
-![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=13.5.4&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)
-![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=282C34&label=18.2.0&labelColor=61DAFB&link=https%3A%2F%2Fru.legacy.reactjs.org%2F)
-![Static Badge](https://img.shields.io/badge/tailwind%20css-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=F8FAFC&link=https%3A%2F%2Ftailwindcss.com%2F)
-![Static Badge](https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&link=https%3A%2F%2Feslint.org%2F)
-![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)
-![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)
-![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)
+[![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.4&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://bun.sh/) 
+[![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&label=5.2.2&labelColor=3178C6&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://www.typescriptlang.org/) 
+[![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=13.5.4&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)](https://nextjs.org/) 
+[![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=282C34&label=18.2.0&labelColor=61DAFB&link=https%3A%2F%2Fru.legacy.reactjs.org%2F)](https://legacy.reactjs.org/) 
+[![Static Badge](https://img.shields.io/badge/tailwind%20css-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=F8FAFC&link=https%3A%2F%2Ftailwindcss.com%2F)](https://tailwindcss.com/) 
+[![Static Badge](https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&link=https%3A%2F%2Feslint.org%2F)](https://eslint.org/) 
+[![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)](https://ui.shadcn.com/) 
+[![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)](https://www.convex.dev/) 
+[![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/)  
 
 ## _Features_
 
@@ -55,7 +56,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Sidebar
 - [x] User Settings
 - [x] Schema & API
-- [ ] Sidebar Item
+- [x] Sidebar Item
 - [ ] Document list
 - [ ] Archive functionality
 - [ ] Trash box
