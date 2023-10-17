@@ -1,14 +1,10 @@
 # app-notionclone-2023
 
-## _Info_
-
-[![Static Badge](https://img.shields.io/badge/Notion%20Document-D2E0FB)](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
-📝 More information on [Notion](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
-
 ## _About project_
 
 **Name:** Notion Clone  
 **Year:** 2023  
+**Info:** [![Static Badge](https://img.shields.io/badge/notion-000000?style=plastic&logo=notion&link=https%3A%2F%2Fdandelion-appeal-fd9.notion.site%2Fapp-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
 **Idea:** [Antonio Erdeljac](https://github.com/AntonioErdeljac)  
 **Source:** [youtu.be](https://www.youtube.com/@codewithantonio)  
 **Description:** This project is a clone of the popular productivity app, Notion. It aims to replicate the core features of Notion, providing users with a platform to manage their notes, tasks, and more in one place.  
@@ -57,7 +53,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] User Settings
 - [x] Schema & API
 - [x] Sidebar Item
-- [ ] Document list
+- [x] Document list
 - [ ] Archive functionality
 - [ ] Trash box
 - [ ] Search functionality
