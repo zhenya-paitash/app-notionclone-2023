@@ -54,7 +54,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Schema & API
 - [x] Sidebar Item
 - [x] Document list
-- [ ] Archive functionality
+- [x] Archive functionality
 - [ ] Trash box
 - [ ] Search functionality
 - [ ] Settings
