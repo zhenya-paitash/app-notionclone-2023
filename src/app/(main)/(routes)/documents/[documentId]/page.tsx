@@ -2,9 +2,7 @@
 
 const DocumentIdPage = () => {
   return (
-    <>
-      {/* <div>DocumentIdPage</div> */}
-    </>
+    <div></div>
   );
 };
 

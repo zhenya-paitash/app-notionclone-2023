@@ -59,8 +59,8 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Trash box
 - [x] Search functionality
 - [x] Settings
-- [ ] Navbar
-- [ ] Banner component
+- [x] Navbar
+- [x] Banner component
 - [ ] Toolbar component (Icon, Title)
 - [ ] Cover image (File upload)
 - [ ] Advanced file upload (delete, replace)
