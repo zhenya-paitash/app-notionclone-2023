@@ -1,18 +1,18 @@
 # app-notionclone-2023
 
-## _About project_
+## _About_
 
 **Name:** Notion Clone  
 **Year:** 2023  
 **Info:** [![Static Badge](https://img.shields.io/badge/notion-000000?style=plastic&logo=notion&link=https%3A%2F%2Fdandelion-appeal-fd9.notion.site%2Fapp-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)](https://dandelion-appeal-fd9.notion.site/app-notionclone-2023-cccb22fc367442099ba86f296cb2e6e8)  
-**Idea:** [Antonio Erdeljac](https://github.com/AntonioErdeljac)  
-**Source:** [youtu.be](https://www.youtube.com/@codewithantonio)  
+**Idea:** [![Static Badge](https://img.shields.io/badge/Antonio%20Erdeijac-181717?style=plastic&logo=github&link=https%3A%2F%2Fgithub.com%2FAntonioErdeljac)](https://github.com/AntonioErdeljac)  
+**Source:** [![Static Badge](https://img.shields.io/badge/youtube-FF0000?style=plastic&logo=youtube&link=https%3A%2F%2Fwww.youtube.com%2F%40codewithantonio)](https://www.youtube.com/@codewithantonio)  
 **Description:** This project is a clone of the popular productivity app, Notion. It aims to replicate the core features of Notion, providing users with a platform to manage their notes, tasks, and more in one place.  
 **Deploy:**  
 
 ## _Tech stack_
 
-[![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.4&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://bun.sh/) 
+[![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.6&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://bun.sh/) 
 [![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&label=5.2.2&labelColor=3178C6&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://www.typescriptlang.org/) 
 [![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=13.5.4&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)](https://nextjs.org/) 
 [![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=282C34&label=18.2.0&labelColor=61DAFB&link=https%3A%2F%2Fru.legacy.reactjs.org%2F)](https://legacy.reactjs.org/) 
@@ -55,7 +55,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Sidebar Item
 - [x] Document list
 - [x] Archive functionality
-- [ ] Trash box
+- [x] Trash box
 - [ ] Search functionality
 - [ ] Settings
 - [ ] Navbar
