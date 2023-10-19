@@ -8,7 +8,7 @@
 **Idea:** [![Static Badge](https://img.shields.io/badge/Antonio%20Erdeijac-181717?style=plastic&logo=github&link=https%3A%2F%2Fgithub.com%2FAntonioErdeljac)](https://github.com/AntonioErdeljac)  
 **Source:** [![Static Badge](https://img.shields.io/badge/youtube-FF0000?style=plastic&logo=youtube&link=https%3A%2F%2Fwww.youtube.com%2F%40codewithantonio)](https://www.youtube.com/@codewithantonio)  
 **Description:** This project is a clone of the popular productivity app, Notion. It aims to replicate the core features of Notion, providing users with a platform to manage their notes, tasks, and more in one place.  
-**Deploy:**  
+**Deploy:** [![Static Badge](https://img.shields.io/badge/vercel-171717?style=plastic&logo=vercel&link=https%3A%2F%2Fvercel.com%2F)](https://vercel.com/)  
 
 ## _Tech stack_
 
@@ -20,7 +20,8 @@
 [![Static Badge](https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&link=https%3A%2F%2Feslint.org%2F)](https://eslint.org/) 
 [![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)](https://ui.shadcn.com/) 
 [![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)](https://www.convex.dev/) 
-[![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/)  
+[![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/) 
+[![Static Badge](https://img.shields.io/badge/zustand-433E38?style=for-the-badge&link=https%3A%2F%2Fzustand-demo.pmnd.rs%2F)](https://zustand-demo.pmnd.rs/)  
 
 ## _Features_
 
@@ -56,7 +57,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Document list
 - [x] Archive functionality
 - [x] Trash box
-- [ ] Search functionality
+- [x] Search functionality
 - [ ] Settings
 - [ ] Navbar
 - [ ] Banner component

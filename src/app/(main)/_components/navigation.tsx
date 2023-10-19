@@ -15,6 +15,7 @@ import { useMediaQuery } from "usehooks-ts";
 import { useMutation } from "convex/react";
 import { toast } from "sonner";
 
+import { useSearch } from "@/hooks/use-search";
 import { cn } from "@/lib/utils";
 import { api } from "@convex/_generated/api";
 
@@ -31,6 +32,7 @@ import { TrashBox } from "./trash-box";
 export const Navigation = () => {
   const pathname = usePathname();
   const isMobile = useMediaQuery("(max-width: 768px)");
+  const search = useSearch();
 
   const isResizingRef = useRef(false);
   const sidebarRef = useRef<React.ElementRef<"aside">>(null);
@@ -172,7 +174,7 @@ export const Navigation = () => {
             label="Search"
             icon={Search}
             isSearch
-            onClick={() => {}}
+            onClick={search.onOpen}
           />
           <Item
             label="Settings"
