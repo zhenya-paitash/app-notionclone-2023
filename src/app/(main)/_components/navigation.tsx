@@ -16,6 +16,7 @@ import { useMutation } from "convex/react";
 import { toast } from "sonner";
 
 import { useSearch } from "@/hooks/use-search";
+import { useSettings } from "@/hooks/use-settings";
 import { cn } from "@/lib/utils";
 import { api } from "@convex/_generated/api";
 
@@ -33,6 +34,7 @@ export const Navigation = () => {
   const pathname = usePathname();
   const isMobile = useMediaQuery("(max-width: 768px)");
   const search = useSearch();
+  const settings = useSettings();
 
   const isResizingRef = useRef(false);
   const sidebarRef = useRef<React.ElementRef<"aside">>(null);
@@ -179,7 +181,7 @@ export const Navigation = () => {
           <Item
             label="Settings"
             icon={Settings}
-            onClick={() => {}}
+            onClick={settings.onOpen}
           />
           <Item
             onClick={handleCreate}
