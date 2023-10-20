@@ -120,7 +120,7 @@ export const Navigation = () => {
   };
 
   const handleCreate = () => {
-    const promise = create({ title: "Untilted" });
+    const promise = create({ title: "Untitled" });
     toast.promise(promise, {
       loading: "Creating a new note...",
       success: "New note created!",
