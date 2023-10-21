@@ -21,7 +21,8 @@
 [![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)](https://ui.shadcn.com/) 
 [![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)](https://www.convex.dev/) 
 [![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/) 
-[![Static Badge](https://img.shields.io/badge/zustand-433E38?style=for-the-badge&link=https%3A%2F%2Fzustand-demo.pmnd.rs%2F)](https://zustand-demo.pmnd.rs/)  
+[![Static Badge](https://img.shields.io/badge/zustand-433E38?style=for-the-badge&link=https%3A%2F%2Fzustand-demo.pmnd.rs%2F)](https://zustand-demo.pmnd.rs/) 
+[![Static Badge](https://img.shields.io/badge/edgestore-7c3aed?style=for-the-badge&link=https%3A%2F%2Fedgestore.dev%2F)](https://edgestore.dev/)  
 
 ## _Features_
 
@@ -62,7 +63,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Navbar
 - [x] Banner component
 - [x] Toolbar component (Icon, Title)
-- [ ] Cover image (File upload)
+- [x] Cover image (File upload)
 - [ ] Advanced file upload (delete, replace)
 - [ ] Editor component
 - [ ] Preview functionality (Publish your work)

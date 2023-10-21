@@ -71,8 +71,7 @@ export const Item = ({
     const promise = create({ title: "Untitled", parentDocument: id })
       .then((docId) => {
         if (!expanded) onExpand?.();
-        // TODO: uncomment router.push after
-        // router.push(`/documents/${docId}`);
+        router.push(`/documents/${docId}`);
       });
 
     toast.promise(promise, {

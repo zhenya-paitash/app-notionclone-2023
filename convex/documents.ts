@@ -126,7 +126,6 @@ export const archive = mutation({
     if (!existingDocument) throw new Error("Document not found");
     if (existingDocument.userId !== userId) throw new Error("Unauthorized");
 
-    // INFO: Recursive archive all child nodes
     const recursiveArhive = async (documentId: Id<"documents">) => {
       const children = await ctx.db
         .query("documents")
@@ -166,7 +165,6 @@ export const restore = mutation({
     if (!existingDocument) throw new Error("Document not found");
     if (existingDocument.userId !== userId) throw new Error("Unauthorized");
 
-    // INFO: Recursive restore all child nodes
     const recursiveRestore = async (documentId: Id<"documents">) => {
       const children = await ctx.db
         .query("documents")
@@ -213,7 +211,6 @@ export const remove = mutation({
     if (!existingDocument) throw new Error("Document not found");
     if (existingDocument.userId !== userId) throw new Error("Unauthorized");
 
-    // INFO: Recursive remove all child nodes
     const recursiveRemove = async (documentId: Id<"documents">) => {
       const children = await ctx.db
         .query("documents")
@@ -279,6 +276,28 @@ export const removeIcon = mutation({
 
     const document = await ctx.db.patch(args.id, {
       icon: undefined,
+    });
+
+    return document;
+  },
+});
+
+export const removeCoverImage = mutation({
+  args: {
+    id: v.id("documents"),
+  },
+  handler: async (ctx, args) => {
+    const identity = await ctx.auth.getUserIdentity();
+    if (!identity) throw new Error("Not authenticated");
+
+    const userId = identity.subject;
+
+    const existingDocument = await ctx.db.get(args.id);
+    if (!existingDocument) throw new Error("Document not found");
+    if (existingDocument.userId !== userId) throw new Error("Unauthorized");
+
+    const document = await ctx.db.patch(args.id, {
+      coverImage: undefined,
     });
 
     return document;
