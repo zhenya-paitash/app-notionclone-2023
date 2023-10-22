@@ -64,7 +64,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Banner component
 - [x] Toolbar component (Icon, Title)
 - [x] Cover image (File upload)
-- [ ] Advanced file upload (delete, replace)
+- [x] Advanced file upload (delete, replace)
 - [ ] Editor component
 - [ ] Preview functionality (Publish your work)
 - [ ] Deployment & Outro

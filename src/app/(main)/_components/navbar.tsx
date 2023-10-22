@@ -44,10 +44,10 @@ export const Navbar = ({
           <MenuIcon
             role="button"
             onClick={onResetWidth}
-            className="h-4 w-4 pr-2"
+            className="h-6 w-6 text-muted-foreground"
           />
         )}
-        <div className="flex text-center justify-between w-full">
+        <div className="flex items-center justify-between w-full">
           <Title initialData={document} />
           <div className="flex items-center gap-x-2">
             <Menu documentId={document._id} />
