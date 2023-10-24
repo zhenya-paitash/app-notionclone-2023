@@ -33,14 +33,16 @@ const DocumentsPage = () => {
         alt="Empty"
         height="300"
         width="300"
-        className="dark:hidden"
+        priority
+        className="dark:hidden h-auto w-auto"
       />
       <Image
         src="/empty-dark.png"
         alt="Empty"
         height="300"
         width="300"
-        className="hidden dark:block"
+        priority
+        className="hidden dark:block h-auto w-auto"
       />
       <h2 className="text-lg font-medium">
         Welcome to {user?.firstName}&apos;s Jotion

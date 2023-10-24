@@ -144,6 +144,7 @@ const SingleImageDropzone = React.forwardRef<HTMLInputElement, InputProps>(
           {imageUrl
             ? (
               // Image Preview
+              // eslint-disable-next-line
               <img
                 className="h-full w-full rounded-md object-cover"
                 src={imageUrl}

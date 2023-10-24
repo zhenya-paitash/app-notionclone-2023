@@ -17,13 +17,19 @@
 [![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=13.5.4&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)](https://nextjs.org/) 
 [![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=282C34&label=18.2.0&labelColor=61DAFB&link=https%3A%2F%2Fru.legacy.reactjs.org%2F)](https://legacy.reactjs.org/) 
 [![Static Badge](https://img.shields.io/badge/tailwind%20css-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=F8FAFC&link=https%3A%2F%2Ftailwindcss.com%2F)](https://tailwindcss.com/) 
+[![Static Badge](https://img.shields.io/badge/vercel-171717?style=for-the-badge&logo=vercel&link=https%3A%2F%2Fvercel.com%2F)](https://vercel.com/) 
+[![Static Badge](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=FFFFFF&link=https%3A%2F%2Fwww.docker.com%2F)](https://www.docker.com/) 
 [![Static Badge](https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&link=https%3A%2F%2Feslint.org%2F)](https://eslint.org/) 
 [![Static Badge](https://img.shields.io/badge/shadcn%2Fui-18181B?style=for-the-badge&link=https%3A%2F%2Fui.shadcn.com%2F)](https://ui.shadcn.com/) 
 [![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)](https://www.convex.dev/) 
 [![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/) 
 [![Static Badge](https://img.shields.io/badge/zustand-433E38?style=for-the-badge&link=https%3A%2F%2Fzustand-demo.pmnd.rs%2F)](https://zustand-demo.pmnd.rs/) 
-[![Static Badge](https://img.shields.io/badge/edgestore-7c3aed?style=for-the-badge&link=https%3A%2F%2Fedgestore.dev%2F)](https://edgestore.dev/) 
-[![Static Badge](https://img.shields.io/badge/blocknote-DFE7FF?style=for-the-badge&link=https%3A%2F%2Fwww.blocknotejs.org%2F)](https://www.blocknotejs.org/)  
+[![Static Badge](https://img.shields.io/badge/edgestore-7c3aed?style=for-the-badge&link=https%3A%2F%2Fedgestore.dev%2F)](https://edgestore.dev/)  
+
+## _Deploy_
+
+[![Static Badge](https://img.shields.io/badge/WATCH%20DEMO-000000?style=for-the-badge&logo=vercel&logoColor=000000&label=Notion%20Clone%202023&labelColor=FFFFFF&link=https%3A%2F%2Fapp-notionclone-2023.vercel.app%2F)](https://app-notionclone-2023.vercel.app/)  
+<a href="https://app-notionclone-2023.vercel.app/"><img src="public/preview.gif" width="100%"></a>
 
 ## _Features_
 
@@ -67,8 +73,8 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Cover image (File upload)
 - [x] Advanced file upload (delete, replace)
 - [x] Editor component
-- [ ] Preview functionality (Publish your work)
-- [ ] Deployment & Outro
+- [x] Preview functionality (Publish your work)
+- [x] Deployment
 
 ## _ASCII_
 

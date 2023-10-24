@@ -39,7 +39,7 @@ export const Menu = ({
       error: "Failed to archive note.",
     });
 
-    router.push(`/documents`);
+    // router.push(`/documents`);
   };
 
   return (

@@ -50,6 +50,7 @@ export const Navigation = () => {
 
   useEffect(() => {
     isMobile ? collapse() : resetWidth();
+    // eslint-disable-next-line
   }, [isMobile]);
 
   useEffect(() => {
