@@ -22,7 +22,8 @@
 [![Static Badge](https://img.shields.io/badge/convex-EE342F?style=for-the-badge&link=https%3A%2F%2Fwww.convex.dev%2F)](https://www.convex.dev/) 
 [![Static Badge](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&link=https%3A%2F%2Fclerk.com%2F)](https://clerk.com/) 
 [![Static Badge](https://img.shields.io/badge/zustand-433E38?style=for-the-badge&link=https%3A%2F%2Fzustand-demo.pmnd.rs%2F)](https://zustand-demo.pmnd.rs/) 
-[![Static Badge](https://img.shields.io/badge/edgestore-7c3aed?style=for-the-badge&link=https%3A%2F%2Fedgestore.dev%2F)](https://edgestore.dev/)  
+[![Static Badge](https://img.shields.io/badge/edgestore-7c3aed?style=for-the-badge&link=https%3A%2F%2Fedgestore.dev%2F)](https://edgestore.dev/) 
+[![Static Badge](https://img.shields.io/badge/blocknote-DFE7FF?style=for-the-badge&link=https%3A%2F%2Fwww.blocknotejs.org%2F)](https://www.blocknotejs.org/)  
 
 ## _Features_
 
@@ -65,7 +66,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
 - [x] Toolbar component (Icon, Title)
 - [x] Cover image (File upload)
 - [x] Advanced file upload (delete, replace)
-- [ ] Editor component
+- [x] Editor component
 - [ ] Preview functionality (Publish your work)
 - [ ] Deployment & Outro
 

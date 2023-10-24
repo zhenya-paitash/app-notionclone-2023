@@ -66,7 +66,10 @@ export const Navigation = () => {
     if (sidebarRef.current && navbarRef.current) {
       sidebarRef.current.style.width = `${newWidth}px`;
       navbarRef.current.style.setProperty("left", `${newWidth}px`);
-      navbarRef.current.style.setProperty("width", `calc(100% - ${newWidth}px)`);
+      navbarRef.current.style.setProperty(
+        "width",
+        `calc(100% - ${newWidth}px)`,
+      );
     }
   };
 
@@ -120,6 +123,7 @@ export const Navigation = () => {
   const handleCreate = () => {
     const promise = create({ title: "Untitled" })
       .then((docId) => router.push(`/documents/${docId}`));
+
     toast.promise(promise, {
       loading: "Creating a new note...",
       success: "New note created!",
