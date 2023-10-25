@@ -35,4 +35,4 @@ yarn-error.log*
 next-env.d.ts
 
 # CONVEX
-/convex/auth.config.js
+# /convex/auth.config.js

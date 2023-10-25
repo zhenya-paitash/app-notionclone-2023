@@ -1,8 +1,8 @@
 export default {
   providers: [
     {
-      domain: "https://<YOUR_ISSUER_CLERK_URL>.clerk.accounts.dev/",
+      domain: "https://eager-lamb-60.clerk.accounts.dev",
       applicationID: "convex",
     },
-  ]
+  ],
 };
