@@ -1,5 +1,7 @@
 # app-notionclone-2023
 
+[![Static Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)  
+
 ## _About_
 
 **Name:** Notion Clone  
@@ -89,3 +91,7 @@ This Notion clone has a wide range of features designed to provide a comprehensi
              888      888                                                                                                                                                       
              888      888                                                                                                                                                       
              888      888
+
+## _License_
+
+[MIT](https://choosealicense.com/licenses/mit/)
