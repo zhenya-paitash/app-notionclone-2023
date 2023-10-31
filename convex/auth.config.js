@@ -1,4 +1,4 @@
-// INFO: Clerk dashboard -> JWT Templates -> create "convex" -> COPY Issuer and PASTE in convex_domain value
+// INFO: Clerk dashboard -> JWT Templates -> create "convex" -> COPY "Issuer" and PASTE in "convex.domain" value
 const convex = {
   domain: "https://eager-lamb-60.clerk.accounts.dev",
   applicationID: "convex",

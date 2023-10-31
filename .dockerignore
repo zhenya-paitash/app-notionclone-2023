@@ -1,14 +1,12 @@
 .git
-
 .next
-
 node_modules
-
-preview
 
 .idea
 .editorconfig
 .vscode
+
+preview
 
 coverage*
 
@@ -21,6 +19,4 @@ LICENSE
 Makefile
 helm-charts
 
-# .env
-# .env.local
 .env.local.example

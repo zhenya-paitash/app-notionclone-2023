@@ -1,15 +1,11 @@
-FROM oven/bun:latest AS bun
-WORKDIR /app/
-COPY . .
-
-# # FROM oven/bun:latest as base
+# FROM oven/bun:1.0.7 as base
 # WORKDIR /usr/src/app
 #
 # # install DEV build
 # FROM base AS install
-# # RUN mkdir -p /temp/dev
-# # COPY package.json bun.lockb /temp/dev/
-# # RUN cd /temp/dev && bun install --frozen-lockfile
+# RUN mkdir -p /temp/dev
+# COPY package.json bun.lockb /temp/dev/
+# RUN cd /temp/dev && bun install --frozen-lockfile
 #
 # # install PROD build
 # RUN mkdir -p /temp/prod
@@ -22,22 +18,13 @@ COPY . .
 # FROM install AS prerelease
 # COPY --from=install /temp/prod/node_modules node_modules
 # COPY . .
-
-# -- environment
-ENV NODE_ENV=production
-# CONVEX https://www.convex.dev/
-# ENV CONVEX_DEPLOYMENT=""
-# ENV NEXT_PUBLIC_CONVEX_URL=""
-# # CLERK https://clerk.com/
-# ENV CLERK_SECRET_KEY=""
-# ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
-# # EDGESTORE https://edgestore.dev/
-# ENV EDGE_STORE_ACCESS_KEY=""
-# ENV EDGE_STORE_SECRET_KEY=""
-
+#
+# # environment
+# ENV NODE_ENV=production
+#
 # # build
 # RUN bun run build
-# # RUN bun x convex deploy
+# RUN bun run db:deploy
 #
 # # copy PROD dependencies and source code into final image
 # FROM base AS release
@@ -49,6 +36,14 @@ ENV NODE_ENV=production
 # EXPOSE 3000/tcp
 # ENTRYPOINT [ "bun", "run", "start" ]
 
-RUN bun install --frozen-lockfile --production
-RUN bun x next build
-CMD ["bun", "x", "next", "start"]
+
+# WARN: EDGESTORE cannot work with this Docker configuration
+# if you need images, use manual installation on your system
+# or try to fix it and give me feedback. I will appreciate your help
+FROM oven/bun:1.0.7 as base
+WORKDIR /usr/src/app/
+COPY . .
+ENV NODE_ENV=production
+RUN bun install && bun run build && bun run db:deploy
+CMD ["bun", "run", "start"]
+

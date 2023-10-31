@@ -17,7 +17,7 @@
 
 [![Static Badge](https://img.shields.io/badge/bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=%23000000&label=1.0.7&labelColor=F9F1E1&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://bun.sh/) 
 [![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&label=5.2.2&labelColor=3178C6&link=https%3A%2F%2Fwww.typescriptlang.org%2F)](https://www.typescriptlang.org/) 
-[![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=14.0.0&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)](https://nextjs.org/) 
+[![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF&label=13.5.4&labelColor=000000&link=https%3A%2F%2Fnextjs.org%2F)](https://nextjs.org/) 
 [![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=282C34&label=18.2.0&labelColor=61DAFB&link=https%3A%2F%2Fru.legacy.reactjs.org%2F)](https://legacy.reactjs.org/) 
 [![Static Badge](https://img.shields.io/badge/tailwind%20css-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=F8FAFC&link=https%3A%2F%2Ftailwindcss.com%2F)](https://tailwindcss.com/) 
 [![Static Badge](https://img.shields.io/badge/vercel-171717?style=for-the-badge&logo=vercel&link=https%3A%2F%2Fvercel.com%2F)](https://vercel.com/) 
@@ -165,13 +165,17 @@ mv .env.local.example .env.local
 
 > **Required:** Docker  
 
-- **5.1** Build image  
+> **WARNING:** Edgestore cannot work with this Docker configuration. If you need images,
+use manual installation on your system  or try to fix it and give me feedback. 
+I will appreciate your help.  
+
+- **5.1.** Build image  
 
     ```
     docker build -t app-notionclone-2023 .
     ```
 
-- **5.1** Run container  
+- **5.2.** Run container  
 
     ```
     docker run -d -p 3000:3000 --name notionclone app-notionclone-2023
